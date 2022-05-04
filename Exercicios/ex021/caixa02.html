@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            padding: 10px;
+            margin: 10px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            color: black;
+            border-radius: 5px;
+        }
+        main{
+            background-color: white;
+            border-radius: 5px;
+        }
+        nav{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+        
+        }
+        article > h1{
+            padding: 10px;
+        }
+        article > p{
+            padding: 10px;
+        }
+        footer{
+            background-color: rgb(201, 200, 200);
+            text-align: center;
+           /* margin: 10px;*/    
+           border-radius: 5px;
+        }
+        a{
+           /* padding: 0px 40px 0px 0px; /* Ou paddin-right: 40px*/
+            text-align: center;
+            padding-right: 60px;
+            background-color: rgb(218, 230, 230);
+            box-shadow: 5px  5px rgba(0, 0, 0, 0.329);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        
+        }
+        #principal{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="principal">Meu primeiro site - CursoemVideo</h1>
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+            <a href="">link4</a>
+            <a href="">link5</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+             <article> 
+                 <h2> Artigo sobre o Brasil.</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci qui assumenda facere ullam quasi similique ea! Numquam id modi quis, ipsa quaerat, eveniet provident perferendis deserunt voluptates eaque maiores.</p>
+                 <aside>
+                     Artigo escrito pelo Andre dos Santos.
+                 </aside>
+             </article>
+             <article>
+                 <h2>Elementos das caixas</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium necessitatibus provident non velit corrupti. Consequuntur neque culpa omnis placeat architecto odit doloremque. Vel esse natus nobis fuga expedita minus velit.</p>
+             </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Site desenvolvido por Marcia Santos.</p>
+      </footer>
+</body>
+</html>
